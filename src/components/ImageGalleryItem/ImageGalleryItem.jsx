@@ -9,7 +9,7 @@ const ImageItem = ({ image }) => {
 
   // Метод для переключення стану модального вікна
   const toggleModal = () => {
-    setShowModal(prevModal => prevModal); // Інвертує значення showModal
+    setShowModal(prevModal => !prevModal); // Інвертує значення showModal
   };
   
   return (
